@@ -256,10 +256,10 @@ class BibliotecaValidacaoFormulario {
                 error: 'color:#F44336;font-weight:bold'
             };
             
-            console.log(`%c${prefix} [${timestamp}] ${mensagem}`, cores[tipo]);
+            console.info(`%c${prefix} [${timestamp}] ${mensagem}`, cores[tipo]);
 
         } else {
-            console.log(`${prefix} [${timestamp}] ${mensagem}`);
+            console.info(`${prefix} [${timestamp}] ${mensagem}`);
         }
 
     }
