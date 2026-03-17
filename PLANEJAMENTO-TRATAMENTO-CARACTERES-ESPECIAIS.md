@@ -726,7 +726,7 @@ Nesta pasta contém os seguintes arquivos de exemplo para referência:
 
 ### Tela 1: Cadastro de Categoria
 
-![Tela de Cadastro de Categoria - Campos Multilíngue](./images/Criação%20Categoria.png)
+![Tela de Cadastro de Categoria - Campos Multilíngue](https://raw.githubusercontent.com/GuiMoreiraHba/BibliotecaValidacaoFormulario/refs/heads/main/images/Criação%20Categoria.png)
 *Campos "Categoria Nova Excel" em 3 idiomas onde validação será aplicada*
 
 **Campos a validar:**
@@ -738,7 +738,7 @@ Nesta pasta contém os seguintes arquivos de exemplo para referência:
 
 ### Tela 2: Categoria com Importação de Lista
 
-![Tela de Categoria com Importação](./images/Criação%20Categoria%20com%20importação%20de%20lista.png)
+![Tela de Categoria com Importação](https://raw.githubusercontent.com/GuiMoreiraHba/BibliotecaValidacaoFormulario/refs/heads/main/images/Criação%20Categoria%20com%20importação%20de%20lista.png)
 *Opção de importar arquivo para lista de pessoas vinculada à categoria*
 
 **Validações necessárias:**
@@ -750,7 +750,7 @@ Nesta pasta contém os seguintes arquivos de exemplo para referência:
 
 ### Tela 3: Configuração de Campo do Formulário
 
-![Tela de Configuração de Campo - Tipo Lista](./images/Criação%20campo%20adicional%20tipo%20lista%20com%20opções.png)
+![Tela de Configuração de Campo - Tipo Lista](https://raw.githubusercontent.com/GuiMoreiraHba/BibliotecaValidacaoFormulario/refs/heads/main/images/Criação%20campo%20adicional%20tipo%20lista%20com%20opções.png)
 *Configuração de campo tipo Lista com opções multilíngue*
 
 **Campos a validar:**
@@ -766,7 +766,7 @@ Nesta pasta contém os seguintes arquivos de exemplo para referência:
 
 ### Tela 4: Arquivos de Exemplo para Importação
 
-![Lista de Arquivos de Exemplo](./images/Lista%20Importação.png)
+![Lista de Arquivos de Exemplo](https://raw.githubusercontent.com/GuiMoreiraHba/BibliotecaValidacaoFormulario/refs/heads/main/images/Lista%20Importação.png)
 *Arquivos .xlsx utilizados como modelo para importação*
 
 **Arquivos disponíveis:**
@@ -786,13 +786,13 @@ Nesta pasta contém os seguintes arquivos de exemplo para referência:
 
 Ao importar uma lista de opções para um campo de formulário contendo o caractere underline (`_`), o comportamento diverge entre criação e edição.
 
-![Lista de Arquivos de Exemplo](./images/Lista%20com%20underline.png)
+![Lista de Arquivos de Exemplo](https://raw.githubusercontent.com/GuiMoreiraHba/BibliotecaValidacaoFormulario/refs/heads/main/images/Lista%20com%20underline.png)
 *Arquivos .xlsx utilizados como modelo para importação*
 
 A lista é importada normalmente, quando é uma criação de um novo campo, porém na edição o texto após
 o underline é removido
 
-![Alteração do campo](./images/image.png)
+![Alteração do campo](https://raw.githubusercontent.com/GuiMoreiraHba/BibliotecaValidacaoFormulario/refs/heads/main/images/image.png)
 
 Este erro ocorre porque na hora da edição o frontend envia uma lista de todas as opções concatenadas em uma string
 separadas apenas por underline e ponto e virgula. O Problema é que o underline é utilizado para separa o id da opção após criação
@@ -830,19 +830,19 @@ Ao importar uma lista de de categoria, seja ela de:
 
 - Nome
 
-![Lista Nome](./images/listaNome.png)
+![Lista Nome](https://raw.githubusercontent.com/GuiMoreiraHba/BibliotecaValidacaoFormulario/refs/heads/main/images/listaNome.png)
 
 - Cpf
 
-![Lista Cpf](./images/listaCpf.png)
+![Lista Cpf](https://raw.githubusercontent.com/GuiMoreiraHba/BibliotecaValidacaoFormulario/refs/heads/main/images/listaCpf.png)
 
 - Cnpj
 
-![Lista Cnpj](./images/listaCnpj.png)
+![Lista Cnpj](https://raw.githubusercontent.com/GuiMoreiraHba/BibliotecaValidacaoFormulario/refs/heads/main/images/listaCnpj.png)
 
 - Email
 
-![Lista Email](./images/listaEmail.png)
+![Lista Email](https://raw.githubusercontent.com/GuiMoreiraHba/BibliotecaValidacaoFormulario/refs/heads/main/images/listaEmail.png)
 
 *Arquivos .xlsx utilizados como modelo para importação*
 
